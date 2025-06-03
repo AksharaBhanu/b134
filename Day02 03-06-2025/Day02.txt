@@ -1,0 +1,25 @@
+selenium-->
+free and open source web app test automation tool
+12 languages
+all OS
+all browser--> Edge chrome Firefox safari
+how to install selenium
+--> pip install selenium
+
+1. open pycharm
+2. create new project --> E:\B134 8.30PM Selenium(Py)\share\workspace\b134
+3. create a package , create demo1.py , print a msg, run and ensure that it is working fine.
+4. File->settings-->project:b134->python interpreter 
+5. click +, search selenium, select and click install package
+6. after getting success msg click close and click ok
+
+create object--> class --> selenium --> import
+call the method
+
+WebDriver methods
+get(url)----> enter the url in address bar of the browser
+close()--> close the browser
+title--> returns title of the page
+current_url--> returns the url present in address bar
+page_source--> returns the html code of the page
+

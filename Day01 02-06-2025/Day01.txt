@@ -1,1 +1,153 @@
+9481787493
+
+batch :B134-Selenium (Python)
+8.30PM to 10PM
+
 https://aksharatraining.com/
+
+https://github.com/AksharaBhanu/b134.git
+
+https://us02web.zoom.us/j/86337896609  passcode: live
+
+https://b129-python.slack.com/archives/C08MV1XKX6K
+
+
+To watch  B134 Selenium(Python) videos on mobile app 
+
+Link to download the mobile app
+https://aksharatraining.com/mobile-app/
+
+Please follow the steps
+
+A. Open Akshara Mobile App
+B. Click 'Batches' at the bottom of the screen
+C. Click +
+D. Enter the batch code as ps134 and click OK
+
+After your batch request is approved follow the below Steps
+
+1. Open Akshara Mobile App
+2. Click Batches at the bottom of the screen
+3. Click on AITM-PSMR-JUN02-B134
+4. Click Videos tab
+------------------------------------------------------------------------------------------------------------
+Python --> scripting language -HLL OOL 
+file--> .py
+PyCharm
+variable any type data 
+no keywords, a-zA-Z 0-9 _ should not start with digit, CS, no max length --identifier --> var function methods class package..
+DataType
+numeric--> int float complex
+NoneType-->None
+Bool --> True False
+String--> str --> '' "" ''' '''
+list--> list[] tuple() range()
+set--> set {10,20,30} frozenset
+map--> dict  {"k":10}
+operators --> arith + - * / //  % ** = += -= *= /= //= %= **=
+> < >= <= == !=   and or not
+in not in
+is is not
+
+if condition
+for loop
+while loop
+
+break & continue
+
+Selenium--Free and open source web app test automation tool
+Free--> no need to pay
+open source--> we can see the code , we can download , we can customize it,
+any app open using browser(GC MFF Safari edge..) gmail.com flipkart fb amazon  Naukri.com 
+testing --> 24/7 -faster 
+
+language-12
+dotnet C#
+Ruby
+java
+python
+JS
+Go
+Haskel
+Perl 
+PHP
+R
+Dart
+SmalTalk
+
+OS--Windows mac Linux
+
+
+How to install Selenium?
+1. open pycharm
+2. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
