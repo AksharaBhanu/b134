@@ -1,0 +1,67 @@
+WebDriver methods
+
+get(url)----> enter the url in address bar of the browser
+close()--> close the browser
+quit()--> close the browser
+title--> returns title of the page
+current_url--> returns the url present in address bar
+page_source--> returns the html code of the page
+back()-->click back
+forward()--> click forward
+refresh()--> refresh the page
+maximize_window()
+fullscreen_window()
+minimize_window()---selenium 4
+
+get_window_size
+set_window_size
+get_window_position
+set_window_position
+
+anything present on the webpage is called as webelement(text box, button ,link image..)
+elements are created using hyper text markup language(HTML)
+it contains 
+<tag>
+attribute
+text
+
+
+
+
+<a class="MV3Tnb">About</a>
+
+
+
+<a id="a1" name="n1" class="c1" title="click me" href="http://www.google.com">Google</a>
+
+tag--> a
+attribute--> id name class title href 
+text--> Google
+
+<input class="form-control" id="input-username" name="username" type="text" placeholder="Username">
+tag--> input
+attributes->> class id name type placeholder
+text--> no text
+
+before performing any action (click type select ) we should find(search) the element 
+to find the element --> locators--> 8 locators
+tagname--> By.TAG_NAME
+id-->By.ID
+name-->By.NAME
+class name--> By.CLASS_NAME
+link  text--> By.LINK_TEXT
+partial link text-->By.PARTIAL_LINK_TEXT
+cssSelector
+xpath
+
+find element takes 2 arg--> locator type and locator value
+if it is not able to locate the element , it will throw NoSuchElementException
+if the locator is matching with multiple elements then find element  return 1st matching element 
+
+
+
+
+
+
+
+
