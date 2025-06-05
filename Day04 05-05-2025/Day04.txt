@@ -1,0 +1,93 @@
+8 locators
+tag name
+id
+name
+class name
+link text
+partial link text
+cssSelector
+xpath
+css- cascading style sheets
+syntax:
+tag[AN='AV']
+<a id="a1" name="n1" class="c1" title="click me" href="http://www.google.com">Google</a>
+
+a[id='a1']
+
+how to verify cssSelector in browser?
+1. open developer tool bar (F12)
+2. click anywhere in html tree and press ctrl+f
+3. type cssSelector in the search box- it should highlight the req element
+
+a[name='n1']
+a[class='c1']
+a[title='click me']
+a[href="http://www.google.com"]
+
+we cant use text in cssSelector
+
+we can specify only tagname also--> a
+we can specify only attribute also--> [name='n1']
+
+a[href="http://www.google.com"]--exact match
+
+a[href^="http"]--> starts with 
+
+a[href*="http"]
+a[href*="google"]--> contains 
+a[href*="com"]
+
+a[href$="com"]--> ends with
+
+2 shortcuts
+#--> id
+.--> class
+
+
+a[id='a1']--> tag should be 'a' and id should be 'a1'
+a#a1--->--> tag should be 'a' and id should be 'a1'
+
+[id='a1']--> id should be 'a1' (any tag)
+#a1
+
+a[class='c1']
+a.c1
+
+
+[class='c1']
+.c1
+
+
+[id='a1'][name='n1']--->  id should be 'a1' and name should be 'n1'
+[id='a1'],[name='n1']--->  id should be 'a1' or name should be 'n1'
+
+a:not([id='a2'])--> tag should be 'a' id != 'a2'
+
+forward traversing --parent to child
+html>body>a  
+
+> means child element
+
+cssSelector do not support backward traversing
+
+
+html>body>div>input
+
+html>body>div:nth-child(2)>input:nth-child(1)
+
+html input 
+
+
+<button class="btn btn-lg btn-primary" name="login-button" type="submit">Go</button>
+
+button[class='btn btn-lg btn-primary']
+
+button.btn.btn-lg.btn-primary
+
+button.btn
+
+button[class^='btn']
+button[class*='btn-lg']
+button[class$='btn-primary']
+
+css
