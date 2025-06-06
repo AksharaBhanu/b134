@@ -1,0 +1,86 @@
+xpath
+path of the element in html tree
+./html/body/a
+
+.  dot root element
+/ child element
+
+./html/body/a
+
+specify dot is not mandatory
+
+/html/body/a
+
+if we dont specify the index it means all
+/html/body/div/input
+
+all the html--> inside that all body--> all div --->all input
+
+/html[1]/body[1]/div[1]/input[1]
+/html/body/div[1]/input[1]
+
+/html/body/div[1]/input[1] --> A
+/html/body/div[2]/input[1]  --> C
+
+/html/body/div[1]/input[1] | /html/body/div[2]/input[1] 
+
+
+axes
+
+/axes::tag
+
+child
+
+/child::html/child::body/child::div[1]/child::input[1]
+
+./html/body/div[1]/input[1]
+
+descendant
+
+
+absolute and relative xpath
+
+//a---> all links 10
+//a[1]--> 3 L1 L4 L7
+//a[2]--> 3 L2 L5 L8
+//a[3]--> 3 L3 L6 L9
+//a[4]--> 1 L10
+//a[5]--> 0 
+
+group index global index
+(//a)[1]--1st link
+(//a)[5]--link5
+(//a)[10]--link 10
+(//a)[11]--> 0
+(//a)[last()]--> link10
+(//a)[last()-1]--> link9
+(//a)[position()<4] L1 L2 L3
+(//a)[position()>7] L8 L9 L10
+(//a)[position() mod 2 =0]
+(//a)[position() mod 2 =1]
+
+(//a)[position()>5 and position()<8 ] --> L6 L7
+(//a)[position()<3 or position()>8] --> L1 L2 L9 L10
+(//a)[position()!=3]
+
+(//a)[1]|(//a)[last()]----> 1st and last links
+(//img)[1]|(//img)[last()]-----> 1st and last image
+
+(//a)[position()=3 or position()=9]
+
+https://aksharatraining.com/sample3.html
+
+//div[1]/input[1]
+./descendant::div[1]/child::input[1]
+
+//div[1]/input[1]/parent::div--> //div[1]/input[1]/..
+//div[1]/input[1]/ancestor::html
+//div[1]/input[1]/following-sibling::input
+//div[1]/input[2]/preceding-sibling::input
+
+child /
+descendant //
+parent /..
+ancestor
+following-sibling
+preceding-sibling
